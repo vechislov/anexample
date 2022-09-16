@@ -1,0 +1,9 @@
+[server]
+vechislov ansible_host=80.87.194.213
+
+[all:vars]
+ansible_python_interpreter=/usr/bin/python3
+
+[server:vars]
+ansible_user=reil
+ansible_ssh_private_key=/home/mainadm/.ssh/id_rsa
